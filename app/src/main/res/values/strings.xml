@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Jagat Cinema</string>
+    <string name="sample_title">Pirates of the Caribbean: Dead Men Tell No Tales</string>
+    <string name="loading_text">Loading, please wait...</string>
+    <string name="error_text">Oops, something went wrong</string>
+    <string name="try_again">Try Again</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">TopRated</string>
+    <string name="favorite">Favorite</string>
+    <string name="filter_by">Filter by</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="release_date">Release Date :</string>
+    <string name="rating">Rating :</string>
+    <string name="popularity">Popularity :</string>
+    <string name="overviews">Overviews</string>
+</resources>

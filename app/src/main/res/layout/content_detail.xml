@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    tools:text="@string/sample_title" />
+
+                <ImageView
+                    android:id="@+id/ivPoster"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTitle"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="16dp"
+                    android:adjustViewBounds="true"
+                    tools:src="@drawable/sample_image" />
+
+
+                <TextView
+                    android:id="@+id/label1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTitle"
+                    android:layout_toEndOf="@+id/ivPoster"
+                    android:layout_toRightOf="@+id/ivPoster"
+                    android:text="@string/release_date"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/label1"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/ivPoster"
+                    android:layout_toRightOf="@+id/ivPoster"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13sp"
+                    tools:text="2017-05-23" />
+
+                <TextView
+                    android:id="@+id/label2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDate"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/ivPoster"
+                    android:layout_toRightOf="@+id/ivPoster"
+                    android:text="@string/rating"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/label2"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/ivPoster"
+                    android:layout_toRightOf="@+id/ivPoster"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13sp"
+                    tools:text="6.6" />
+
+                <TextView
+                    android:id="@+id/label3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvRate"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/ivPoster"
+                    android:layout_toRightOf="@+id/ivPoster"
+                    android:text="@string/popularity"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvPopular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/label3"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/ivPoster"
+                    android:layout_toRightOf="@+id/ivPoster"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13sp"
+                    tools:text="63.07778" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/label4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/overviews"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvOverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/lorem_ipsum"
+                android:textColor="@color/colorBlack" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
